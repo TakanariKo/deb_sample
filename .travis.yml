@@ -14,4 +14,4 @@ install:
 script:
  - sudo apt-get install -y aptitude
  - sudo aptitude install -y devscripts cdbs dpkg-sig
- - debuild -uc -us
+ - debuild -uc -us --no-tgz-check
