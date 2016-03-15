@@ -16,3 +16,4 @@ script:
  - sudo aptitude install -y devscripts cdbs dpkg-sig
  - debuild --no-tgz-check -uc -us
  - curl -u${USER}:${PASSWORD} -XPUT "${URL}/${PKGNAME};deb.distribution=${DIST};deb.component=${COMPONENT};deb.architecture=${ARCHITECTURE}" -T ../${PKGNAME}
+
