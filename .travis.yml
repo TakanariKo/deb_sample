@@ -12,6 +12,6 @@ install:
  - sudo docker run -d -v $PWD:/work -w=/work ubuntu bash
 
 script:
- - apt-get install -y aptitude
- - aptitude install -y devscripts cdbs dpkg-sig
+ - sudo apt-get install -y aptitude
+ - sudo aptitude install -y devscripts cdbs dpkg-sig
  - debuild -uc -us
