@@ -2,7 +2,7 @@
 # -*- makefile -*-
 
 include /usr/share/cdbs/1/rules/debhelper.mk 
-install/example-siteconfig::
+install/samplepkg::
 	install -pd $(DEB_DESTDIR)/etc/test/conf
 	install -pm 644 conf/example.conf $(DEB_DESTDIR)/etc/test/conf/
 
