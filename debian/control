@@ -1,9 +1,10 @@
 Source: samplepkg
-Maintainer: Takanari Kou <takou@zlab.co.jp>
+Maintainer: Takanari Ko <takou@zlab.co.jp>
 Build-Depends: cdbs, debhelper
-Standards-Version: 1.0.0
+Standards-Version: 3.9.5
 
 Package: samplepkg
 Architecture: all
-Description: this package was created for learning debian package system
+Description: Sample package
+	This package was created for learning debian package system
 

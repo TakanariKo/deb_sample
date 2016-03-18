@@ -1,4 +1,4 @@
-samplepkg (0.1-1) trusty; urgency=low
+samplepkg (0.1.0) trusty; urgency=low
 
   * Initial release
     test
