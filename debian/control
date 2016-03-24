@@ -1,7 +1,11 @@
 Source: samplepkg
+Section: devel
+Priority: optional
 Maintainer: Takanari Ko <takou@zlab.co.jp>
-Build-Depends: cdbs, debhelper
+Build-Depends: cdbs,
+          debhelper(>=9)
 Standards-Version: 3.9.5
+Depends: ${misc:Depends}
 
 Package: samplepkg
 Architecture: all
