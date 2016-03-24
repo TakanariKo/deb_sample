@@ -5,10 +5,10 @@ Maintainer: Takanari Ko <takou@zlab.co.jp>
 Build-Depends: cdbs,
           debhelper(>=9)
 Standards-Version: 3.9.5
-Depends: ${misc:Depends}
 
 Package: samplepkg
 Architecture: all
+Depends: ${misc:Depends}
 Description: Sample package
 	This package was created for learning debian package system
 
